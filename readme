@@ -6,16 +6,16 @@
         <meta content='width=device-width, initial-scale=1, user-scalable=no' name='viewport'>
           <meta content='' name='description'>
             <meta content='' name='author'>
-              <title>Graduate Students' Association for Neuroscience</title>
+              <title>Blogging framework for GSAN</title>
               <link href='img/gsanico.ico' rel='shortcut icon' type='image/x-icon'>
               <!-- Bootstrap Core CSS -->
-              <link href='assets/stylesheets/bootstrap-0f20e5b3.css' rel='stylesheet'>
+              <link href='assets/stylesheets/bootstrap.css' rel='stylesheet'>
                 <!-- Custom CSS -->
-                <link href='assets/stylesheets/modern-business-3f1b4697.css' rel='stylesheet'>
+                <link href='assets/stylesheets/modern-business.css' rel='stylesheet'>
                 <!-- Font Awesome CDN -->
                 <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css' rel='stylesheet'>
                 <!-- Custom Gallery -->
-                <link href='assets/stylesheets/gallery-ec0f5c91.css' rel='stylesheet' type='text/css'>
+                <link href='assets/stylesheets/gallery.css' rel='stylesheet' type='text/css'>
                 <!-- Custom Typography -->
                 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
                 <link href='https://fonts.googleapis.com/css?family=Lato&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -43,12 +43,12 @@
           </button>
           <a class='navbar-brand navbar-custom visible-lg visible-md' href='index.html'>
             <strong>
-              <img alt='Smiley face' height='25' src='img/brain5_gray-5d4738d4.svg' width='25'><span style="padding-left:10px">Graduate Students' Association for Neuroscience</span></img>
+              <img alt='Smiley face' height='25' src='img/brain5_gray.svg' width='25'><span style="padding-left:10px">Graduate Students' Association for Neuroscience</span></img>
             </strong>
           </a>
           <a class='navbar-brand navbar-custom hidden-lg hidden-md' href='index.html'>
             <strong>
-              <img alt='Smiley face' height='25' src='img/brain5_gray-5d4738d4.svg' width='25'><span style="padding-left:10px">GSAN at McGill</span></img>
+              <img alt='Smiley face' height='25' src='img/brain5_gray.svg' width='25'><span style="padding-left:10px">GSAN at McGill</span></img>
             </strong>
           </a>
         </div>
@@ -249,59 +249,8 @@
       </div>
     </nav>
   </head>
-  <body class='x404'>
-    <!-- Page Content -->
-    <div class='container'>
-      <!-- Page Heading/Breadcrumbs -->
-      <div class='row'>
-        <div class='col-lg-12'>
-          <h1 class='page-header'>
-            404
-            <small>Page Not Found</small>
-          </h1>
-          <ol class='breadcrumb'>
-            <li>
-              <a href='index.html'>Home</a>
-            </li>
-            <li class='active'>404</li>
-          </ol>
-        </div>
-      </div>
-      <!-- /.row -->
-      <div class='row'>
-        <div class='col-lg-12'>
-          <div class='jumbotron'>
-            <h1>
-              <span class='error-404'>404</span>
-            </h1>
-            <p>The page you're looking for could not be found. Here are some helpful links to get you back on track:</p>
-            <ul>
-              <li>
-                <a href='index.html'>Home</a>
-              </li>
-              <li>
-                <a href='about.html'>About</a>
-              </li>
-              <li>
-                <a href='services.html'>Academic</a>
-              </li>
-              <li>
-                <a href='contact.html'>Social</a>
-              </li>
-              <li>
-                <a href='portfolio-1-col.html'>Sports</a>
-              </li>
-              <li>
-                <a href='portfolio-2-col.html'>Students</a>
-              </li>
-              <li>
-                <a href='portfolio-3-col.html'>Blog</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
+  <body class='readme'>
+    <p>soma.gsaneuro.com</p>
     <footer>
       <div class='footer container-fluid' id='footer'>
         <div class='row'>
@@ -492,8 +441,8 @@
       </div>
     </footer>
     <!-- jQuery -->
-    <script src='assets/javascripts/jquery-4a99362a.js'></script>
+    <script src='assets/javascripts/jquery.js'></script>
     <!-- Bootstrap Core JavaScript -->
-    <script src='assets/javascripts/bootstrap-ae519d42.js'></script>
+    <script src='assets/javascripts/bootstrap.js'></script>
   </body>
 </html>
