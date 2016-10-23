@@ -1,0 +1,68 @@
+- @title = "Graduate Students' Association for Neuroscience"
+
+/ Page Content
+.container
+  / Page Heading/Breadcrumbs
+  .row
+    .col-lg-12
+      %h1.page-header
+        Peer Support
+        %small Home
+      %ol.breadcrumb
+        %li
+          %a{:href => "index.html"} Home
+        %li.active Peer Support
+  / /.row
+  / Content Row
+  .row
+    / Sidebar Column
+    .col-md-3
+      .list-group
+        %a.list-group-item{:href => "../"} Home
+        %a.list-group-item{:href => "../about-us/"} About
+        %a.list-group-item{:href => "../academic/"} Academic
+        %a.list-group-item{:href => "../social/"} Social
+        %a.list-group-item{:href => "../students/"} Students
+        %a.list-group-item.active{:href => "../join-gsan/"} Get Involved
+    / Content Column
+    .col-md-9
+      %h2 IPN Peer Support Program
+      %h4 Sign up here:
+      %iframe{:frameborder => "0", :height => "1000", :marginheight => "0", :marginwidth => "0", :src => "https://docs.google.com/forms/d/1H66o71Pje49073BwVFbcoabdMdRZO6GnBXl8VR9QROg/viewform?embedded=true", :width => "100%"}
+      %br
+      %br/
+
+      %hr
+
+
+
+      %h2 Student Well-being and Peer Support Training
+      %h4
+      %i.fa.fa-clock-o.fa-fw
+      March 23rd, 2016
+      %br
+      %br
+      %p
+        Hello IPN Students,
+        %br
+        %br
+        I'd like to take this opportunity to introduce Edwin and myself as GSAN's well-being and support officers. Our primary role on GSAN is to provide a peer support program for IPN students. The general logistics of the program is comparable to that of other peer support models. The model first starts with formal training of IPN students who are interested in supporting their peers.  Once we develop a list of trained peer supporters, we'll open up our program to students who reach out to Edwin or myself looking for support. Depending on the students needs, we'll match them with a peer supporter on our list.
+        %br
+        Since we're currently in the primary stages of the peer support program, I'll emphasize here the training portion. In order to be considered for a Peer Supporter position, participants must attend a mandatory training on March 30th from 1400 to 1800 at the Douglas Mental Health University Institute (room to be announced).  This training will emphasize  Active Listening and Support Skills. This mandatory training will equip our supporters with the basic skills they need to successfully support their peers.  Every month, Edwin and I will also provide more advanced training modules. These may include: how to manage your supervisor, issues in supporting sexual minorities, stress management and mental health, coping with grief, community crisis and suicide intervention, and supporting a disclosure of sexual violence. These advanced training's are by no means mandatory, however they open up the probability that your training will match a students needs. For instance, if student X approaches our team with an issue re: stress management and mental health, they will be matched with a peer supporter who has completed this module. All of our training modules will be offered by McGill experts in each respective area.  Our Active Listening and Support Skills training will be offered by Evelyn Rodinos who is a Psychologist on McGill's Counselling Service Team.
+        %br
+        What we ask of you is if you are interested in becoming a Peer Supporter please access and fill out the doodle poll link below. Use your primary e-mail address as your name and select the one option that is available, if you do not use your e-mail address you will not be contacted with follow up information. This training will only be offered once this academic year, if you cannot attend the training you are more then welcome to apply next academic year. If you have served as a GSAN Peer Supporter in the past academic year, this training remains mandatory for you as well.
+        %br
+        Thank you for considering a position as a Peer Supporter and welcome to our team!
+        %br
+        %br
+        Daniel M. Almeida
+        %br
+        Student Well-Being Officer
+        %br
+        %a{:href => "mailto:daniel.almeida@mail.mcgill.ca", :target => "_top"} daniel.almeida@mail.mcgill.ca
+        %br
+        %br
+        %i.fa.fa-users.fa-fw
+        %a{:href => "http://doodle.com/poll/dtyh4ikqixmk6ykt", :target => "_blank"} Doodle Poll
+
+      %hr
